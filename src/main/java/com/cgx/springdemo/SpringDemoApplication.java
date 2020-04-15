@@ -1,9 +1,11 @@
 package com.cgx.springdemo;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@MapperScan("com/cgx/springdemo/mapper")
 public class SpringDemoApplication {
 
 	public static void main(String[] args) {

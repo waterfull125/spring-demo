@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cgx.springdemo.mapper.TAddressMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cgx.springdemo.entity.TAddress">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="channel_id" property="channelId" />
+        <result column="biz_code" property="bizCode" />
+        <result column="type" property="type" />
+        <result column="receiver_name" property="receiverName" />
+        <result column="phone_region" property="phoneRegion" />
+        <result column="phone_number" property="phoneNumber" />
+        <result column="location_region" property="locationRegion" />
+        <result column="province_code" property="provinceCode" />
+        <result column="city_code" property="cityCode" />
+        <result column="district_code" property="districtCode" />
+        <result column="street_code" property="streetCode" />
+        <result column="post_code" property="postCode" />
+        <result column="address_detail" property="addressDetail" />
+        <result column="is_default" property="isDefault" />
+        <result column="is_deleted" property="isDeleted" />
+        <result column="creator" property="creator" />
+        <result column="modifier" property="modifier" />
+        <result column="gmt_created" property="gmtCreated" />
+        <result column="gmt_modified" property="gmtModified" />
+    </resultMap>
+
+</mapper>
